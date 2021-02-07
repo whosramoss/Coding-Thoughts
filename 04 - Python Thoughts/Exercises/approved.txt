@@ -1,0 +1,3 @@
+Rogerio media = 10.0
+Isabel media = 8.0
+Marina media = 8.666666666666666

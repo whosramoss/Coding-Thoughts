@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="./../style.css"/>
+	<meta charset="UTF-8"/>
+	<title>Basic PHP</title>
+</head>
+<body>
+<div>
+	<form method="get" action="Structures- IF.php">
+		<label for="iProd">Product's name: </label>
+		<input type="text" name="prod" id="iProd" size="15" maxlength="30" placeholder="Product's name"/><br/>
+		
+		<label for="iN2">Price</label>
+		<input type="number" name="price" id="iPreco" min="0" max="1000" step="0.1" placeholder="$$$"/><br/>
+		
+		<fieldset>
+			<legend>Type</legend>
+			<input type="radio" name="type" id="iInc" value="I" checked>
+			<label for="iInc">Increase</label><br/>
+			<input type="radio" name="type" id="iDes" value="D">
+			<label for="iDes">Decrease</label>
+		</fieldset>
+		
+		<label for="iPer">Percent: </label>
+		<input type="number" name="perc" id="iPer" min="0" max="100" step="1">%<br/>
+		
+		<input type="submit" class="botao" value="New Price"/>
+	</form>
+</div>
+</body>
+</html>
+ 

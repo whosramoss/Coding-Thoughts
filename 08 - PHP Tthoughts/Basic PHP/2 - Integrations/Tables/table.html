@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="_css/estilo.css"/>
+  <meta charset="UTF-8"/>
+  <title>Curso de PHP - CursoemVideo.com</title>
+</head>
+<body>
+<div>
+	<pre> <!-- <pre></pre> = metodo de vizulização compacto para vetores -->
+    <table border="1"><tr> <!-- <table><tr></table> = cria uma tabela -->
+
+    <?php
+    $c = range(5, 20, 5); //range(5,20,5) = o vetor começã do numero 5 e para no numero 20 pulando de 5 em 5
+    print_r($c);
+    
+    foreach ($c as $v) {
+      echo "$v";
+    }
+    
+    ?>
+  </table> 
+   </pre>
+</div>
+</body>
+</html>
+ 
